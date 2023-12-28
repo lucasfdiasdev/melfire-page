@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -10,10 +10,10 @@ const SectionGallery = () => {
   return (
     <>
       <section className="">
-        <div className="mx-auto max-w-2xl px-4 py-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+        <div className="mx-auto max-w-2xl p-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
           <div className='flex items-center justify-between'>
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">My Videos</h2>
-            <Link href={'/my-gallery'}> See all</Link>
+            <Link href={'/my-gallery'}>See all</Link>
           </div>
 
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">

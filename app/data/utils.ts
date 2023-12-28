@@ -102,15 +102,6 @@ export const gallery = [
     color: 'playboy',
     price: '$9,99'
   },
-  {
-    id: 5,
-    imageSrc: '',
-    imageAlt: 'mel fire',
-    href: '/',
-    name: 'melfire bitchs',
-    color: 'playboy',
-    price: '$9,99'
-  }
 ]
 
 export const features = [
@@ -145,4 +136,31 @@ export const solutions = [
     description: 'Vamo que vamo porra',
     icon: FaGamepad
   },
+]
+
+export const links = [
+  {
+    name: 'OnlyFans',
+    href: 'https://onlyfans.com/melfireofficial',
+  },
+  {
+    name: 'Clips 4 sale',
+    href: 'https://www.clips4sale.com/studio/173817/mel-fire?cflsid=81592961673020731135',
+  },
+  {
+    name: 'Oficial Website',
+    href: 'http://www.melfirexxx.com/',
+  },
+  {
+    name: 'IWantClips',
+    href: 'https://iwantclips.com/store/981673/melfireofficial',
+  },
+  {
+    name: 'ManyVids',
+    href: 'https://www.manyvids.com/Profile/512091/spicymelfire/Store/Videos/',
+  },
+  {
+    name: 'SessionGirls',
+    href: 'https://sessiongirls.com/mel-fire/'
+  }
 ]

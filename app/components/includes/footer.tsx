@@ -1,12 +1,6 @@
-import Link from 'next/link'
+import Link from 'next/link';
 
-import { 
-  FaXTwitter,
-  FaTiktok,
-  FaYoutube,
-  FaInstagram
-} from "react-icons/fa6";
-
+import ButtonSocial from '@/app/components/button/button-social';
 
 const Footer = () => {
   return (
@@ -23,38 +17,17 @@ const Footer = () => {
         '
       >
         <div className='flex items-start justify-between w-full border-y py-10'>
-          <div>
+          <div className='flex flex-col'>
             <Link href='/'>
               <h1 className='text-2xl'>
                 Mel Fire
               </h1>
+            </Link>
               <p>Professional Dominatrix - Wrestler - Tantric Goddess</p>
               <p>HELSINKI - STOCKHOLM - LONDON</p>
-            </Link>
           </div>
 
-          <div className='flex items-center gap-5'>
-            <Link
-              href='https://www.instagram.com/melfire.oficial2/'
-            >
-              <FaInstagram/>
-            </Link>
-            <Link
-              href='https://www.instagram.com/melfire.oficial2/'
-            >
-              <FaTiktok/>
-            </Link>
-            <Link
-              href='https://www.instagram.com/melfire.oficial2/'
-            >
-              <FaXTwitter/>
-            </Link>
-            <Link
-              href='https://www.instagram.com/melfire.oficial2/'
-            >
-              <FaYoutube/>
-            </Link>
-          </div>
+         <ButtonSocial/>
         </div>
 
         <div className='flex items-center justify-center mx-auto text-center text-xs max-w-2xl'>

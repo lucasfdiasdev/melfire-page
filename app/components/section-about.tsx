@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import melfireSession from '@/public/melfire-session.webp';
 
-const About = () => {
+const SectionAbout = () => {
   return (
     <section
       className='
@@ -31,7 +31,7 @@ const About = () => {
       </div>
 
       <div className='flex-1'>
-        <h1 className='mb-10 text-2xl text-center'>About me</h1>
+        <h1 className='mb-10 text-3xl font-bold text-center'>About Me</h1>
         <div className='space-y-6'>
           <p>Experience the unique opportunity of being in the presence of an upscale professional dominatrix, wrestler and tantric masseuse</p>
           <p>Award-winning international adult star, I can make your mind travel between pleasure and pain according to my preferences</p>
@@ -42,4 +42,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SectionAbout;

@@ -3,9 +3,10 @@
 import Image from "next/image";
 import melFireImg from '/public/melfire.webp';
 
-import About from "@/app/components/about";
+import SectionAbout from "@/app/components/section-about";
 import SectionLinks from "@/app/components/section-links";
 import SectionGallery from "@/app/components/section-gallery";
+import SectionPhotos from "../components/section-photos";
 
 const Home = () => {
   return (
@@ -18,9 +19,10 @@ const Home = () => {
         className="w-[1327px] object-cover h-[946px] mb-20" 
       />
 
-      <About/>
+      <SectionAbout/>
       <SectionGallery/>
       <SectionLinks/>
+      <SectionPhotos/>
     </>
   )
 }
