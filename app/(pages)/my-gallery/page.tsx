@@ -1,3 +1,4 @@
+import ListPinterest from '@/app/components/pinterest/list-pinterest'
 import React from 'react'
 
 const MyGallery = () => {
@@ -12,6 +13,7 @@ const MyGallery = () => {
         muted
         className='object-contain w-[1397px] flex items-center justify-center'
       />
+      <ListPinterest/>
     </div>
     
     </>

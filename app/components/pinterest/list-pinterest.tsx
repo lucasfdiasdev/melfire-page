@@ -1,9 +1,7 @@
-'use client';
+import { pintList } from '@/app/data/utils';
+import ItemPinterest from './item-pinterest';
 
-import { pintList } from "../data/utils";
-import ItemPinterest from "./pinterest/item-pinterest";
-
-const SectionPhotos = () => {
+const ListPinterest = () => {
   return (
     <>
       <div 
@@ -31,7 +29,7 @@ const SectionPhotos = () => {
         }
       </div>
     </>
-  )
-}
+  );
+};
 
-export default SectionPhotos;
+export default ListPinterest;

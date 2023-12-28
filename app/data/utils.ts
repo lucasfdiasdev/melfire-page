@@ -1,4 +1,17 @@
-import imgMelFireBlog from '@/public/melfire-blog.webp'
+import twoHotGirls from '@/public/2-hotgirls.png';
+import imgMelDanii from '@/public/mel-and-danii.png';
+import imgMelFireBlog from '@/public/melfire-blog.webp';
+
+import imgList0 from '@/public/list0.webp'
+import imgList1 from '@/public/list1.webp'
+import imgList2 from '@/public/list2.webp'
+import imgList3 from '@/public/list3.webp'
+import imgList4 from '@/public/list4.webp'
+import imgList5 from '@/public/list5.webp'
+import imgList6 from '@/public/list6.webp'
+import imgList7 from '@/public/list7.webp'
+import imgList8 from '@/public/list8.webp'
+
 import { FaGamepad } from 'react-icons/fa6'
 
 export const navbarLinks = [
@@ -68,39 +81,39 @@ export const posts = [
 export const gallery = [
   {
     id: 1,
-    imageSrc: '',
-    imageAlt: 'mel fire',
-    href: '/',
-    name: 'melfire bitchs',
-    color: 'playboy',
-    price: '$9,99'
+    imageSrc: imgMelDanii,
+    imageAlt: 'Mel and Danii private foot worship',
+    href: 'https://www.clips4sale.com/studio/173817/27407889/mel-and-danii-private-foot-worship',
+    name: 'Mel and Danii private foot worship',
+    category: 'Clips 4 Salve',
+    price: '$5,99'
   },
   {
     id: 2,
-    imageSrc: '',
-    imageAlt: 'mel fire',
-    href: '/',
-    name: 'melfire bitchs',
-    color: 'playboy',
-    price: '$9,99'
+    imageSrc: imgMelDanii,
+    imageAlt: 'Mel and Danii private foot worship',
+    href: 'https://www.clips4sale.com/studio/173817/27407889/mel-and-danii-private-foot-worship',
+    name: 'Mel and Danii private foot worship',
+    category: 'Clips 4 Salve',
+    price: '$5,99'
   },
   {
     id: 3,
-    imageSrc: '',
-    imageAlt: 'mel fire',
-    href: '/',
-    name: 'melfire bitchs',
-    color: 'playboy',
-    price: '$9,99'
+    imageSrc: imgMelDanii,
+    imageAlt: 'Mel and Danii private foot worship',
+    href: 'https://www.clips4sale.com/studio/173817/27407889/mel-and-danii-private-foot-worship',
+    name: 'Mel and Danii private foot worship',
+    category: 'Clips 4 Salve',
+    price: '$5,99'
   },
   {
     id: 4,
-    imageSrc: '',
-    imageAlt: 'mel fire',
-    href: '/',
-    name: 'melfire bitchs',
-    color: 'playboy',
-    price: '$9,99'
+    imageSrc: twoHotGirls,
+    imageAlt: 'Goth geek girls showing you their christmas gift',
+    href: 'https://www.clips4sale.com/studio/173817/28437293/goth-geek-girls-showing-you-their-christmas-gift',
+    name: 'Goth geek girls showing you their christmas gift',
+    category: 'Clips 4 Sale',
+    price: '$14,99'
   },
 ]
 
@@ -163,4 +176,43 @@ export const links = [
     name: 'SessionGirls',
     href: 'https://sessiongirls.com/mel-fire/'
   }
+]
+
+export const pintList = [
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList0,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList6
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList5
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList3
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList4
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList2
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList1
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList7
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList8
+  },
 ]

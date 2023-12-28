@@ -19,26 +19,26 @@ const SectionGallery = () => {
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {gallery.map((product) => (
               <div key={product.id} className="group relative">
-                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:h-80">
                   <Image
-                    width={80}
-                    height={80}
+                    width={800}
+                    height={800}
                     src={product.imageSrc}
                     alt={product.imageAlt}
-                    className="h-full w-full object-cover object-center lg:h-full lg:w-full"
+                    className="h-full w-full object-cover object-center"
                   />
                 </div>
-                <div className="mt-4 flex justify-between">
-                  <div>
-                    <h3 className="text-sm text-gray-700">
-                      <Link href={product.href}>
-                        <span aria-hidden="true" className="absolute inset-0" />
-                        {product.name}
-                      </Link>
-                    </h3>
-                    <p className="mt-1 text-sm text-gray-500">{product.color}</p>
+                <div className="mt-4 flex flex-col">
+                  <h3 className="text-sm text-gray-700">
+                    <Link href={product.href}>
+                      <span aria-hidden="true" className="absolute inset-0" />
+                      {product.name}
+                    </Link>
+                  </h3>
+                  <div className='flex items-center justify-between'>
+                    <p className="mt-1 text-sm text-gray-500">{product.category}</p>
+                    <p className="text-md font-medium text-white">{product.price}</p> 
                   </div>
-                  <p className="text-sm font-medium text-gray-900">{product.price}</p>
                 </div>
               </div>
             ))}

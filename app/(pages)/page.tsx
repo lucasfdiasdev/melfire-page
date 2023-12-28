@@ -5,8 +5,9 @@ import melFireImg from '/public/melfire.webp';
 
 import SectionAbout from "@/app/components/section-about";
 import SectionLinks from "@/app/components/section-links";
+import SectionPhotos from "@/app/components/section-photos";
 import SectionGallery from "@/app/components/section-gallery";
-import SectionPhotos from "../components/section-photos";
+import SectionSessions from "@/app/components/section-sessions";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <SectionAbout/>
       <SectionGallery/>
       <SectionLinks/>
+      <SectionSessions/>
       <SectionPhotos/>
     </>
   )

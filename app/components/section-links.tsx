@@ -34,7 +34,7 @@ const SectionLinks = () => {
               ))
             }
           </div>
-          <div className='mt-10'>
+          <div className='mt-10 flex items-center justify-center w-full'>
             <Image 
               src={melfirelagerieHelsinki} 
               className='w-[662px] h-[415px] object-cover rounded-md' 
