@@ -9,7 +9,7 @@ const ContactMe = () => {
       <div className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">My Blog</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
             <p className="mt-2 text-lg leading-8 text-white">
               Learn how to grow your business with our expert advice.
             </p>
@@ -32,7 +32,7 @@ const ContactMe = () => {
                 <div className="border-b border-gray-900/10 pb-12">
                   <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
-                      <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
+                      <label htmlFor="fullName" className="block text-sm font-medium leading-6 text-white">
                         Your name
                       </label>
                       <div className="mt-2">
@@ -40,23 +40,25 @@ const ContactMe = () => {
                           type="text"
                           name="first-name"
                           id="first-name"
+                          placeholder='Your name'
                           autoComplete="given-name"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent focus:bg-white"
                         />
                       </div>
                     </div>
 
                     <div className="sm:col-span-3">
-                      <label htmlFor="last-name" className="block text-sm font-medium leading-6 text-gray-900">
+                      <label htmlFor="phone" className="block text-sm font-medium leading-6 text-white">
                         Whatsapp
                       </label>
                       <div className="mt-2">
                         <input
                           type="text"
-                          name="last-name"
-                          id="last-name"
+                          name="phone"
+                          id="phone"
+                          placeholder='Phone Number'
                           autoComplete="family-name"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent focus:bg-white"
                         />
                       </div>
                     </div>
@@ -71,7 +73,8 @@ const ContactMe = () => {
                           name="email"
                           type="email"
                           autoComplete="email"
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder='E-mail'
+                          className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent focus:bg-white"
                         />
                       </div>
                     </div>
@@ -83,7 +86,8 @@ const ContactMe = () => {
                         <textarea
                           id=""
                           name=""
-                          className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                          placeholder='Write your message'
+                          className="block w-full rounded-md border-0 py-1.5 px-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-white focus:placeholder:text-gray-900 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 bg-transparent focus:bg-white"
                         />
                       </div>
                     </div>

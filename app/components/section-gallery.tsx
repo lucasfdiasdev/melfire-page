@@ -9,8 +9,8 @@ import { gallery } from '@/app/data/utils';
 const SectionGallery = () => {
   return (
     <>
-      <section className="">
-        <div className="mx-auto max-w-2xl p-4 sm:px-6 sm:py-8 lg:max-w-7xl lg:px-8">
+      <section>
+        <div className="mx-auto max-w-2xl p-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className='flex items-center justify-between'>
             <h2 className="text-2xl font-bold tracking-tight text-gray-900">My Videos</h2>
             <Link href={'/my-gallery'}>See all</Link>

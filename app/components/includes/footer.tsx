@@ -14,6 +14,7 @@ const Footer = () => {
           sm:px-6 
           lg:px-8
           py-4
+          mt-20
         '
       >
         <div className='flex items-start justify-between w-full border-y py-10'>

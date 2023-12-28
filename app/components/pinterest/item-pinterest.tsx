@@ -29,9 +29,8 @@ const ItemPinterest: React.FC<ItemPinterestProps> = ({
           className='rounded-3xl relative z-0 object-cover'
         />
         <h2 className='font-bold text-[18px] mb-1 mt-2 line-clamp-1'>
-
+          {title}
         </h2>
-        {title}
       </div>
     </>
   );
