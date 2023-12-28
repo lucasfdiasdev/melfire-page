@@ -14,9 +14,7 @@ const SectionPhotos = () => {
 
   return (
     <>
-      <div
-        className=''
-      >
+      <div>
         <div 
           className='
             mt-12 
@@ -31,7 +29,7 @@ const SectionPhotos = () => {
           '
         >
           {
-            pintList.slice(0, 6).map((item, index) => (
+            pintList.slice(0, 10).map((item, index) => (
               <div 
                 key={index}>
                 <ItemPinterest

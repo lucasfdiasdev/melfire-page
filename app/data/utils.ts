@@ -2,15 +2,21 @@ import twoHotGirls from '@/public/2-hotgirls.png';
 import imgMelDanii from '@/public/mel-and-danii.png';
 import imgMelFireBlog from '@/public/melfire-blog.webp';
 
-import imgList0 from '@/public/list0.webp'
-import imgList1 from '@/public/list1.webp'
-import imgList2 from '@/public/list2.webp'
-import imgList3 from '@/public/list3.webp'
-import imgList4 from '@/public/list4.webp'
-import imgList5 from '@/public/list5.webp'
-import imgList6 from '@/public/list6.webp'
-import imgList7 from '@/public/list7.webp'
-import imgList8 from '@/public/list8.webp'
+import imgList0 from '@/public/list0.webp';
+import imgList1 from '@/public/list1.webp';
+import imgList2 from '@/public/list2.webp';
+import imgList3 from '@/public/list3.webp';
+import imgList4 from '@/public/list4.webp';
+import imgList5 from '@/public/list5.webp';
+import imgList6 from '@/public/list6.webp';
+import imgList7 from '@/public/list7.webp';
+import imgList8 from '@/public/list8.webp';
+import imgList9 from '@/public/list9.webp';
+import imgList10 from '@/public/list10.webp';
+import imgList11 from '@/public/list11.webp';
+import imgList12 from '@/public/list12.webp';
+import imgList13 from '@/public/list13.webp';
+import imgList14 from '@/public/list14.webp';
 
 import { FaGamepad } from 'react-icons/fa6'
 
@@ -177,6 +183,30 @@ export const links = [
 export const pintList = [
   {
     title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList9,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList10,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList11,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList12,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList2,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList14,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
     imageUrl: imgList0,
   },
   {
@@ -197,7 +227,7 @@ export const pintList = [
   },
   {
     title: 'Goth geek girls showing you their christmas gift',
-    imageUrl: imgList2
+    imageUrl: imgList12
   },
   {
     title: 'Goth geek girls showing you their christmas gift',
