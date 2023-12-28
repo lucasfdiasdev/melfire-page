@@ -20,7 +20,7 @@ export const navbarLinks = [
     href: '/about',
   },
   {
-    name: 'Tour',
+    name: 'Tour Dates',
     href: '/tour-dates',
   },
   {
@@ -28,7 +28,7 @@ export const navbarLinks = [
     href: 'my-gallery',
   },
   {
-    name: 'Contact',
+    name: 'Contact Me',
     href: '/contact-me',
   },
   {
@@ -126,28 +126,24 @@ export const features = [
 
 export const solutions = [
   {
-    name: 'About Me',
-    href: '/',
-    description: 'Vamo que vamo porra',
-    icon: FaGamepad
+    name: 'About',
+    href: '/about',
   },
   {
-    name: 'About Me',
-    href: '/',
-    description: 'Vamo que vamo porra',
-    icon: FaGamepad
+    name: 'Tour Dates',
+    href: '/tour-dates',
   },
   {
-    name: 'About Me',
-    href: '/',
-    description: 'Vamo que vamo porra',
-    icon: FaGamepad
+    name: 'Gallery',
+    href: 'my-gallery',
   },
   {
-    name: 'About Me',
-    href: '/',
-    description: 'Vamo que vamo porra',
-    icon: FaGamepad
+    name: 'Contact Me',
+    href: '/contact-me',
+  },
+  {
+    name: 'Blog',
+    href: '/blog',
   },
 ]
 
