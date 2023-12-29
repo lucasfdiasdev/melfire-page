@@ -14,24 +14,28 @@ const ButtonSocial = () => {
         <Link
           className='p-2 hover:bg-white/20 transition-all duration-300 rounded-md'
           href='https://www.instagram.com/melfire.oficial2/'
+          target='_blank'
         >
           <FaInstagram size={22}/>
         </Link>
         <Link
           className='p-2 hover:bg-white/20 transition-all duration-300 rounded-md'
           href='https://www.tiktok.com/@melfireoficial'
+          target='_blank'
         >
           <FaTiktok size={22}/>
         </Link>
         <Link
           className='p-2 hover:bg-white/20 transition-all duration-300 rounded-md'
           href='https://twitter.com/melfireoficial'
+          target='_blank'
         >
           <FaXTwitter size={22}/>
         </Link>
         <Link
           className='p-2 hover:bg-white/20 transition-all duration-300 rounded-md'
           href='https://www.youtube.com/melfire'
+          target='_blank'
         >
           <FaYoutube size={22}/>
         </Link>

@@ -6,8 +6,8 @@ import melFireImg from '/public/melfire.webp';
 import SectionAbout from "@/app/components/section-about";
 import SectionLinks from "@/app/components/section-links";
 import SectionPhotos from "@/app/components/section-photos";
-import SectionGallery from "@/app/components/section-gallery";
 import SectionSessions from "@/app/components/section-sessions";
+import SectionShopVideo from "@/app/components/section-shop-video";
 
 const Home = () => {
   return (
@@ -17,11 +17,11 @@ const Home = () => {
         alt="Mel Fire Capa"  
         width={946} 
         height={1327} 
-        className="w-[1327px] object-cover h-[946px] mb-20" 
+        className="w-full object-cover  mb-20" 
       />
 
       <SectionAbout/>
-      <SectionGallery/>
+      <SectionShopVideo/>
       <SectionLinks/>
       <SectionSessions/>
       <SectionPhotos/>

@@ -20,14 +20,15 @@ const SectionLinks = () => {
           <ButtonSocial/>
 
           <Link href={'https://t.me/melfirefree'} className='bg-white/10 hover:bg-white/20 rounded-md px-3 py-2 whitespace-nowrap transition-all duration-300' target='_blank'>Free Telegram Group</Link>
-          <div className='flex gap-10'>
+          <div 
+            className='lg:flex items-center justify-center gap-10 w-full grid grid-cols-2 sm:grid-cols-3' >
             {
               links.map((link) => (
                 <Link 
                   key={link.href}
                   href={link.href} 
                   target='_blank' 
-                  className='bg-white/10 rounded-md px-3 py-2 hover:bg-white/20 transition-all duration-300'
+                  className='bg-white/10 rounded-md px-3 py-2 hover:bg-white/20 transition-all duration-300 flex items-center justify-center'
                 >
                   <span className='text-white whitespace-nowrap'>{link.name}</span>
                 </Link>

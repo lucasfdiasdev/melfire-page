@@ -21,7 +21,7 @@ const ListPinterest = () => {
       <div>
         <div 
           className='
-            mt-12
+            mt-24
             px-2 
             md:px-8 
             columns-2 

@@ -18,13 +18,7 @@ import imgList12 from '@/public/list12.webp';
 import imgList13 from '@/public/list13.webp';
 import imgList14 from '@/public/list14.webp';
 
-import { FaGamepad } from 'react-icons/fa6'
-
 export const navbarLinks = [
-  {
-    name: 'About',
-    href: '/about',
-  },
   {
     name: 'Tour Dates',
     href: '/tour-dates',
@@ -132,10 +126,6 @@ export const features = [
 
 export const solutions = [
   {
-    name: 'About',
-    href: '/about',
-  },
-  {
     name: 'Tour Dates',
     href: '/tour-dates',
   },
@@ -208,6 +198,10 @@ export const pintList = [
   {
     title: 'Goth geek girls showing you their christmas gift',
     imageUrl: imgList0,
+  },
+  {
+    title: 'Goth geek girls showing you their christmas gift',
+    imageUrl: imgList13,
   },
   {
     title: 'Goth geek girls showing you their christmas gift',

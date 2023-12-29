@@ -6,7 +6,7 @@ import melfireImg from '@/public/melfire-session2.webp'
 const ContactMe = () => {
   return (
     <>
-      <div className="py-24 sm:py-32">
+      <div className="pt-24 sm:pt-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
@@ -14,8 +14,9 @@ const ContactMe = () => {
               Learn how to grow your business with our expert advice.
             </p>
           </div>
+
           <div
-            className='flex items-start'
+            className='flex items-center md:text-start mt-20 flex-col md:flex-row gap-10 md:gap-0'
           >
             <div className='flex-1'>
               <Image 

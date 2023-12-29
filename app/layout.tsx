@@ -4,6 +4,7 @@ import './globals.css'
 import Header from './components/includes/header';
 import Footer from './components/includes/footer';
 import ButtonWpp from './components/button/button-wpp';
+import clsx from 'clsx';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body 
-        className={inter.className}
+        className={clsx(`overflow-x-hidden ${inter.className}`)}
       >
         <Header/>
         {children}

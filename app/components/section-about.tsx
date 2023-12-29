@@ -16,7 +16,9 @@ const SectionAbout = () => {
         max-w-7xl 
         px-2 
         sm:px-6 
-        lg:px-8  
+        lg:px-8
+        mb-10
+        md:mb-0
       '
     >
       <div className='flex-1'>

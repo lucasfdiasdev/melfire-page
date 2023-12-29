@@ -6,14 +6,14 @@ import Image from 'next/image';
 
 import { gallery } from '@/app/data/utils';
 
-const SectionGallery = () => {
+const SectionShopVideo = () => {
   return (
     <>
       <section>
         <div className="mx-auto max-w-2xl p-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className='flex items-center justify-between'>
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900">My Videos</h2>
-            <Link href={'/my-gallery'}>See all</Link>
+            <h2 className="text-2xl font-bold tracking-tight text-white">My Videos</h2>
+            <Link href={'/my-shop'} className='text-zinc-300 hover:text-white'>See all</Link>
           </div>
 
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -29,15 +29,15 @@ const SectionGallery = () => {
                   />
                 </div>
                 <div className="mt-4 flex flex-col">
-                  <h3 className="text-sm text-gray-700">
+                  <h3 className="text-sm text-zinc-300">
                     <Link href={product.href}>
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}
                     </Link>
                   </h3>
                   <div className='flex items-center justify-between'>
-                    <p className="mt-1 text-sm text-gray-500">{product.category}</p>
-                    <p className="text-md font-medium text-white">{product.price}</p> 
+                    <p className="mt-1 text-sm text-zinc-300">{product.category}</p>
+                    <p className="text-md font-medium text-zinc-300">{product.price}</p> 
                   </div>
                 </div>
               </div>
@@ -49,4 +49,4 @@ const SectionGallery = () => {
   )
 }
 
-export default SectionGallery
+export default SectionShopVideo
