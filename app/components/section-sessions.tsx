@@ -11,6 +11,9 @@ const SectionSessions = () => {
         className='w-full'
       >
         <div className='flex flex-col'>
+          <h2 className="text-5xl text-center font-bold leading-8 text-white py-10">
+            Session
+          </h2>
           <div className='flex items-center justify-between flex-col md:flex-row gap-10 md:gap-0'>
             <div className='mx-auto hidden lg:flex'>
               <Image 
@@ -21,10 +24,7 @@ const SectionSessions = () => {
                 className='object-cover rounded-md w-[380px] h-[570px]'  
               />
             </div>
-            <div className='text-white text-center space-y-6'>
-              <h2 className="text-5xl text-center font-bold leading-8 text-white">
-                Session
-              </h2>
+            <div className='text-white text-center'>
               <div>
                 <p>ONLINE SESSIONS AND VIDEO CALLS</p>
                 <p>MIXED WRESTLING (FANTASY/ SEMI COMP)</p>
@@ -65,9 +65,9 @@ const SectionSessions = () => {
               />
             </div>
           </div>
-            <div className='flex justify-center items-center flex-col text-center w-full my-10 space-y-5'>
-              <p>If your inquiry is about something not on the list you may contact me to check if I have the availability</p>
-              <p>Rates are non-negotiable</p>
+            <div className='flex justify-center items-center flex-col text-center w-full my-10 space-y-2'>
+              <p className='text-sm'>If your inquiry is about something not on the list you may contact me to check if I have the availability</p>
+              <p className='text-xs'>Rates are non-negotiable</p>
             </div>
         </div>
       </section>

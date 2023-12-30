@@ -62,7 +62,6 @@ const ListPinterest = () => {
                 whitespace-nowrap 
                 transition-all 
                 duration-300
-                gap-2
               "
             >
               View More 

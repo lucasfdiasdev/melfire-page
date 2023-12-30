@@ -11,12 +11,14 @@ const ContactMe = () => {
           <div className="mx-auto max-w-2xl lg:mx-0">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">Contact Me</h2>
             <p className="mt-2 text-lg leading-8 text-white">
-              Learn how to grow your business with our expert advice.
+              Outcall session in hotel rooms available
             </p>
           </div>
 
           <div
-            className='flex items-center md:text-start mt-20 flex-col md:flex-row gap-10 md:gap-0'
+            className='
+            mx-auto max-w-2xl gap-x-8 gap-y-10 space-x-6 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none
+            flex items-center  mt-20 flex-col md:flex-row gap-10 md:gap-0'
           >
             <div className='flex-1'>
               <Image 
@@ -26,10 +28,10 @@ const ContactMe = () => {
                 width={335} 
                 height={503}
               />
-
             </div>
-            <form className='flex-1'>
-              <div>
+
+            <div className='flex-1'>
+              <form>
                 <div className="border-b border-gray-900/10 pb-12">
                   <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
                     <div className="sm:col-span-3">
@@ -95,17 +97,14 @@ const ContactMe = () => {
 
                   </div>
                 </div>
-              </div>
-
-              <div className="mt-6 flex items-center gap-x-6">
                 <button
                   type="submit"
                   className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 >
                   Send message
                 </button>
-              </div>
-            </form>
+              </form>
+            </div>
           </div>
           
         </div>

@@ -13,7 +13,13 @@ const SectionShopVideo = () => {
         <div className="mx-auto max-w-2xl p-4 sm:px-6 lg:max-w-7xl lg:px-8">
           <div className='flex items-center justify-between'>
             <h2 className="text-2xl font-bold tracking-tight text-white">My Videos</h2>
-            <Link href={'/my-shop'} className='text-zinc-300 hover:text-white'>See all</Link>
+            <Link 
+              href={'https://www.clips4sale.com/studio/173817/mel-fire'} 
+              className='text-zinc-300 hover:text-white'
+              target='_blank'
+            >
+              See all
+            </Link>
           </div>
 
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
@@ -30,7 +36,10 @@ const SectionShopVideo = () => {
                 </div>
                 <div className="mt-4 flex flex-col">
                   <h3 className="text-sm text-zinc-300">
-                    <Link href={product.href}>
+                    <Link 
+                      target='_blank'
+                      href={product.href}
+                    >
                       <span aria-hidden="true" className="absolute inset-0" />
                       {product.name}
                     </Link>
